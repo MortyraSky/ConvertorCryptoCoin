@@ -1,0 +1,11 @@
+/* eslint-disable react/jsx-props-no-spreading */
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
+import { App } from './components/App';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('example'),
+);

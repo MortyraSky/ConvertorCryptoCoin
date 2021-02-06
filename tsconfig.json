@@ -1,0 +1,29 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowJs": true,
+    "experimentalDecorators":true,
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es6",
+    "jsx": "react",
+    "rootDir": "./",
+    "isolatedModules": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "typeRoots": [
+      "node_modules/@types",
+      "src/typings/scss"
+    ],
+    "esModuleInterop": true
+  },
+  // "files": [
+  //   "./src/components/Hello.tsx",
+  //   "./src/index.tsx"
+  // ]
+  "include": ["src/*", "modulesDeclarations.d.ts"],
+  "exclude": ["node_modules"]
+}
