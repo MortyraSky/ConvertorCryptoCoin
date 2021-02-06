@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "from 0 to 1",
   "main": "webpack.config.js",
+  "homepage": "http://MortyraSky.github.io/ConvertorCryptoCoin",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack --mode development",
     "build-prod": "cross-env NODE_ENV=production webpack --mode production",
