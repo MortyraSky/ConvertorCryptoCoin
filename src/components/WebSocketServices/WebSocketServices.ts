@@ -69,9 +69,8 @@ export const WSApi = {
       ws?.close();
       status = 'close';
       currenciesStore?.hideColors();
-      TESTSTORE.setIsTracked(true);
+      TESTSTORE.setIsTracked(false);
     }
-    console.log('откл не подключенную подписку');
   },
 
 };
